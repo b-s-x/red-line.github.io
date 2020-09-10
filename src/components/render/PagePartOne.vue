@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts">
-import PageText from '@/components/tools/PageText.vue'
+import PageText from "@/components/tools/PageText.vue"
 
 import Vue from "vue"
 export default Vue.extend({

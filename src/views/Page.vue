@@ -1,5 +1,5 @@
 <template lang='pug'>
-	div(class='page')
+    div(class='page')
 		part-one/
 		part-two/
 		part-three/
@@ -24,5 +24,5 @@ export default {
 	body {
 		margin: 0
 	}
-	
+
 </style>
