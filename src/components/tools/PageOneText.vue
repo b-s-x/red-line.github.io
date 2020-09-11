@@ -20,7 +20,7 @@ export default Vue.extend({ })
 
     strong {
         font-size: 34px;
-        color: rgb(214, 60, 55)
+        color: rgb(214, 60, 55);
     }
 
     div {

@@ -1,8 +1,8 @@
 <template lang="pug">
-	div(class="element-one-page")
-		div(class='element-one-img')
-			img(class="img-field" src="@/assets/img/field.png")
-			div(class="element-one-text")
+	div.element-one-page
+		div.element-one-img
+			img.img-field(src="@/assets/img/field.png")
+			div.element-one-text
 				page-text/
 </template>
 
