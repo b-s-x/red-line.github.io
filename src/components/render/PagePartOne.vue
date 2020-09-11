@@ -1,13 +1,13 @@
 <template lang="pug">
-	div(class="element-page")
-		div(class='element-img')
+	div(class="element-one-page")
+		div(class='element-one-img')
 			img(class="img-field" src="@/assets/img/field.png")
-			div(class="element-text")
+			div(class="element-one-text")
 				page-text/
 </template>
 
 <script lang="ts">
-import PageText from "@/components/tools/PageText.vue"
+import PageText from "@/components/tools/PageOneText.vue"
 
 import Vue from "vue"
 export default Vue.extend({
@@ -19,14 +19,14 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 
-	.element-text {
+	.element-one-text {
 		position: absolute;
 		top: 35vh;
 		left: 25vw;
 		width: 50vw;
 	}
 
-	.element-img {
+	.element-one-img {
 		position: relative;
 		width: 100%;
 		height: 100vh;
