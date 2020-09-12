@@ -1,8 +1,8 @@
 <template lang='pug'>
-    div(class='page')
-		part-one/
-		part-two/
-		part-three/
+    div.page
+        part-one/
+        part-two/
+        part-three/
 </template>
 
 <script>
