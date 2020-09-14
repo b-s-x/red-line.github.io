@@ -1,7 +1,8 @@
 <template lang="pug">
     div.element-three-page
         div.element-title
-            span.element-title-text soyez gentil et explorez le monde avec <span class="word">amour</span>
+            span.element-title-text soyez gentil et explorez le monde avec 
+            span.element-title-text.word amour
         div.container
             page-three-text(v-for="text of allText" :key="text.id" :text="text")/
 
