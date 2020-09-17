@@ -4,25 +4,25 @@ export default {
             {
                 id: 1,
                 title: "Contes de fées",
-                icon: require('./../../assets/icons/spark.svg'),
+                icon: "spark",
                 text: "Les contes de fées c'est comme ça. Un matin on se réveille. On dit : « Ce n'était qu'un conte de fées … ». On sourit de soi. Mais au fond on ne sourit guère. On sait bien que les contes de fées c'est la seule vérité de la vie."
             },
             {
                 id: 2,
                 title: "Route",
-                icon: require('./../../assets/icons/flower.svg'),
+                icon: "flower",
                 text: "Je vous le dis : vous n'avez le droit d'éviter un effort qu'au nom d'un autre effort, car vous devez grandir.",
             },
             {
                 id: 3,
                 title: "Aventure",
-                icon: require('./../../assets/icons/adventure.svg'),
+                icon: "adventure",
                 text: "Tu deviens responsable pour toujours de ce que tu as apprivoisé.",
             },
             {
                 id: 4,
                 title: "Renard",
-                icon: require('./../../assets/icons/arctic-fox.svg'),
+                icon: "fox",
                 text: "Ce n'était qu'un renard semblable à cent mille autres. Mais j'en ai fait mon ami, et il est maintenant unique.",
             },
         ],
