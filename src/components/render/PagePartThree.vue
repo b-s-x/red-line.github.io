@@ -1,7 +1,7 @@
 <template lang="pug">
     div.element-page
         div.element-title
-            span.element-title-text soyez gentil et explorez le monde avec 
+            span.element-title-text soyez gentil et explorez le monde avec
             span.element-title-text.word amour
         div.element-container
             page-three-text(v-for="text of allText" :key="text.id" :text="text")/
@@ -27,6 +27,8 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 
+    @import "./../../style/scss/variables";
+
     .element-page {
         height: 100vh;
         width: 100%;
@@ -34,7 +36,7 @@ export default Vue.extend({
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: rgb(214, 60, 55);
+        background-color: $main-colour;
     }
 
     .element-title {

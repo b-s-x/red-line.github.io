@@ -33,6 +33,8 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 
+    @import "./../../style/scss/variables";
+
     .element-page {
         display: flex;
         justify-content: center;
@@ -69,7 +71,7 @@ export default Vue.extend({
             margin-left: 20px;
 
             strong {
-                color: rgb(214, 60, 55);
+                color: $main-colour;
                 text-decoration: underline;
             }
         }

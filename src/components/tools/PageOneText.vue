@@ -13,12 +13,14 @@ export default Vue.extend({ })
 
 <style lang="scss" scoped>
 
+    @import "./../../style/scss/variables";
+
     div {
         min-width: 50vw;
 
         strong {
             font-size: 34px;
-            color: rgb(214, 60, 55);
+            color: $main-colour;
         }
 
         p {
