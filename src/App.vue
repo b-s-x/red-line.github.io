@@ -6,4 +6,6 @@
 
 <style lang="scss">
 
+    @import './style/scss/customScrollbar'
+
 </style>
