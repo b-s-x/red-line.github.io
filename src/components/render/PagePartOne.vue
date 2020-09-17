@@ -1,8 +1,8 @@
 <template lang="pug">
-	div.element-one-page
-		div.element-one-img
-			img.img-field(src="@/assets/img/field.png")
-			div.element-one-text
+	div.element-page
+		div.element-container
+			img.element-container-img(src="@/assets/img/field.png")
+			div.element-container-text
 				page-text/
 </template>
 
@@ -19,22 +19,22 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 
-	.element-one-text {
-		position: absolute;
-		top: 35vh;
-		left: 25vw;
-		width: 50vw;
-	}
-
-	.element-one-img {
+	.element-container {
 		position: relative;
 		width: 100%;
 		height: 100vh;
-	}
 
-	.img-field {
-		width: 100%;
-		height: 100vh;
+        &-img {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .element-container-text {
+            position: absolute;
+            top: 35vh;
+            left: 25vw;
+            width: 50vw;
+        }
 	}
 
 </style>

@@ -1,12 +1,12 @@
 <template lang="pug">
-    div.element-two-page
-        div.element-two-img
-            img.img-tower(src="@/assets/img/tower.png")
+    div.element-page
+        div.element-imager
+            img.element-imager-img(src="@/assets/img/tower.png")
 
-        div.element-two-text
-            div.text-title
+        div.element-text
+            div.element-text-title
                 span Citations <strong>d'Antoine:</strong>
-            div.text-container
+            div.element-text-items
                 text-item(
                     v-for="quote of allQuotes"
                     :key="quote.icon"
@@ -33,45 +33,46 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 
-    .element-two-page {
+    .element-page {
         display: flex;
         justify-content: center;
         height: 100vh;
         width: 100%;
     }
 
-    .element-two-img {
+    .element-imager {
         width: 27%;
         height: 70%;
         align-self: flex-end;
+
+        &-img {
+            width: 100%;
+            height: 100%;
+        }
     }
 
-    .img-tower {
-		width: 100%;
-		height: 100%;
-	}
 
-    .element-two-text {
+    .element-text {
         width: 35%;
         height: 450px;
         margin: 100px 0 0 15px;
-    }
 
-     .text-container {
-        width: 100%;
-        height: 386px;
-    }
+        &-items {
+            width: 100%;
+            height: 386px;
+        }
 
-    .text-title {
-        height: 60px;
-        width: 100%;
-        font-size: 28px;
-        margin-left: 20px;
-    }
+        &-title {
+            height: 60px;
+            width: 100%;
+            font-size: 28px;
+            margin-left: 20px;
 
-    strong {
-         color: rgb(214, 60, 55);
-         text-decoration: underline;
+            strong {
+                color: rgb(214, 60, 55);
+                text-decoration: underline;
+            }
+        }
     }
 
 </style>

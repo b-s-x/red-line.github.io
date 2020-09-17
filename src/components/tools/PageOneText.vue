@@ -13,18 +13,18 @@ export default Vue.extend({ })
 
 <style lang="scss" scoped>
 
-    p {
-        font-size: 24px;
-        text-align: justify;
-    }
-
-    strong {
-        font-size: 34px;
-        color: rgb(214, 60, 55);
-    }
-
     div {
         min-width: 50vw;
+
+        strong {
+            font-size: 34px;
+            color: rgb(214, 60, 55);
+        }
+
+        p {
+            font-size: 24px;
+            text-align: justify;
+        }
     }
 
 </style>

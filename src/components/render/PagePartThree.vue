@@ -1,9 +1,9 @@
 <template lang="pug">
-    div.element-three-page
+    div.element-page
         div.element-title
             span.element-title-text soyez gentil et explorez le monde avec 
             span.element-title-text.word amour
-        div.container
+        div.element-container
             page-three-text(v-for="text of allText" :key="text.id" :text="text")/
 
 </template>
@@ -27,7 +27,7 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 
-    .element-three-page {
+    .element-page {
         height: 100vh;
         width: 100%;
         display: flex;
@@ -41,24 +41,23 @@ export default Vue.extend({
         height: 10%;
         width: 60%;
         text-align: right;
+
+        &-text {
+            padding-top: 20px;
+            margin-top: 20px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .word {
+            text-decoration: underline;
+        }
     }
 
-    .element-title-text {
-        padding-top: 20px;
-        margin-top: 20px;
-        font-size: 30px;
-        font-weight: bold;
-    }
-
-    .word {
-        text-decoration: underline;
-    }
-
-    .container {
+    .element-container {
         height: 50%;
         width: 60%;
         margin-top: 30px;
-
         display: flex;
         flex-wrap: wrap;
     }

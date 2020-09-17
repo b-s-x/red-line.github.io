@@ -1,9 +1,9 @@
 <template lang="pug">
     div.element
-        div.container-text
-            div.title-item {{text.title}}
-            div.text-item {{text.text}}
-        div.container-icon
+        div.element-container
+            div.element-container-title {{text.title}}
+            div.element-container-text {{text.text}}
+        div.element-icon
             img(:src="text.icon")
 </template>
 
@@ -24,31 +24,27 @@ export default Vue.extend({
         flex-direction: row;
     }
 
-    .container-text {
+    .element-container {
         height: 100%;
         width: 100%;
         text-align: right;
         font-size: 24px;
+
+        &-title {
+            height: 20%;
+            width: 100%;
+            color: white;
+            font-weight: bold;
+        }
+
+        &-text {
+            height: 79%;
+            width: 100%;
+        }
     }
 
-    .title-item {
-        height: 20%;
-        width: 100%;
-        color: white;
-        font-weight: bold;
-    }
-
-    .text-item {
-        height: 79%;
-        width: 100%;
-    }
-
-    .container-icon {
-        height: 100%;
-        width: 17%;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
+    .element-icon {
+        margin: 0 14px 0 14px
     }
 
 </style>
