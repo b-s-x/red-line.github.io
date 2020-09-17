@@ -3,7 +3,7 @@ export default {
         quotes: [
             {
                 id: 1,
-                icon: require('./../../assets/icons/star.svg'),
+                icon: "star",
                 text: "Aimer, ce n'est pas se regarder l'un l'autre, c'est regarder ensemble dans la même direction.",
             },
             {
@@ -12,7 +12,7 @@ export default {
             },
             {
                 id: 3,
-                icon: require('./../../assets/icons/moon.svg'),
+                icon: "moon",
                 text: "Fais de ta vie un rêve, et d'un rêve, une réalité.",
             },
             {
@@ -21,7 +21,7 @@ export default {
             },
             {
                 id: 5,
-                icon: require('./../../assets/icons/cloud.svg'),
+                icon: "cloud",
                 text: "Si tu diffères de moi, mon frère, loin de me léser, tu m'enrichis.",
             },
             {
