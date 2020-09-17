@@ -52,6 +52,7 @@ export default Vue.extend({
         }
 
         .word {
+            margin-left: 7px;
             text-decoration: underline;
         }
     }
