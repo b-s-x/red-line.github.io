@@ -22,14 +22,14 @@ export default Vue.extend({
 	.element-container {
 		position: relative;
 		width: 100%;
-		height: 100vh;
+        height: 100vh;
 
         &-img {
             width: 100%;
             height: 100vh;
         }
 
-        .element-container-text {
+        &-text {
             position: absolute;
             top: 35vh;
             left: 25vw;
